@@ -8,9 +8,9 @@ package ua.java.equipment;
 public class Clothes extends Equipment {
     private String name = "Clothes";
     private String type;
-    private int size;
+    private String size;
 
-    public Clothes(String type, int size, int weight, int cost) {
+    public Clothes(String type, String size, int weight, int cost) {
         super(cost, weight);
         this.type = type;
         this.size = size;
@@ -24,7 +24,7 @@ public class Clothes extends Equipment {
         this.type = type;
     }
 
-    public void setSize(int size) {
+    public void setSize(String size) {
         this.size = size;
     }
 
@@ -36,12 +36,12 @@ public class Clothes extends Equipment {
         return type;
     }
 
-    public int getSize() {
+    public String getSize() {
         return size;
     }
 
     @Override
     public String toString() {
-        return "Name: " + name + ", " + ", type: " + type + ", size: " + size + super.toString() + '.';
+        return "Name: " + name + ", type: " + type + ", size: " + size + " " + super.toString() + ".\n";
     }
 }

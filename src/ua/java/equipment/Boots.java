@@ -42,6 +42,6 @@ public class Boots extends Equipment {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", " + ", type: " + type + ", size: " + size + super.toString() + '.';
+        return "Name: " + name + ", type: " + type + ", size: " + size + " " + super.toString() + ".\n";
     }
 }

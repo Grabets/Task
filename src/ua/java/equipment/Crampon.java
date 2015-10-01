@@ -52,6 +52,6 @@ public class Crampon extends Equipment {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", " + ", type: " + type + ", size: " + size + ", number of points: " + numberOfPoints + super.toString() + '.';
+        return "Name: " + name + ", type: " + type + ", size: " + size + ", number of points: " + numberOfPoints + " " +  super.toString() + ".\n";
     }
 }

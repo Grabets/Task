@@ -32,6 +32,6 @@ public class Rucksack extends Equipment {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", " + ", volume: " + volume + ", " + super.toString() + '.';
+        return "Name: " + name + ", volume: " + volume + ", " + super.toString() + ".\n";
     }
 }

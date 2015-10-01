@@ -52,6 +52,6 @@ public class Rope extends Equipment {
 
     @Override
     public String toString() {
-        return (isDynamics ? "Dynamic rope, name: ":"Non dynamic rope, name") + name + ", "+super.toString()+", length: "+length+", diameter: " + diameter+'.';
+        return "Name: " + name +", type: " + (isDynamics ? "dynamic rope":"Non dynamic rope") + ", length: "+length+", diameter: " + diameter + " " +super.toString()+".\n";
     }
 }

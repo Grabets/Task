@@ -42,6 +42,6 @@ public class IceAxe extends Equipment {
 
     @Override
     public String toString() {
-        return "Name: "+name+", category: "+category+", "+super.toString()+", length: "+length+".";
+        return "Name: "+name+", category: "+category + ", length: "+length + ", " + super.toString() + ".\n";
     }
 }
